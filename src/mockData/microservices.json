@@ -1,0 +1,55 @@
+{
+  "microservices": [
+    {
+      "projectId": "f132d201-7fc7-426c-ac5c-80b8cb0296ec",
+      "language": "Java",
+      "resources": [
+        {
+          "name": "AMQ_2",
+          "access": "false",
+          "fileName": "tmp/936296693/InfraForShop/amq_2.tf",
+          "type": "aws_mq_broker",
+          "category": "Queues",
+          "actions": [
+            "Read",
+            "Write"
+          ]
+        }
+      ]
+    },
+    {
+      "projectId": "7cf4b20d-573f-4909-9eae-b562fcbdd60a",
+      "language": "Python",
+      "resources": [
+        {
+          "name": "AMQ_2",
+          "access": "false",
+          "fileName": "tmp/936296693/InfraForShop/amq_2.tf",
+          "type": "aws_mq_broker",
+          "category": "Queues",
+          "actions": [
+            "Read",
+            "Write"
+          ]
+        }
+      ]
+    },
+    {
+      "projectId": "5a035c2d-f9e4-4f0e-8b0d-2159f2f5521a",
+      "language": "Java",
+      "resources": [
+        {
+          "name": "MSK_2",
+          "access": "unknown",
+          "fileName": "tmp/936296693/InfraForShop/msk_2.tf",
+          "type": "aws_msk_cluster",
+          "category": "Streaming",
+          "actions": [
+            "Read",
+            "Write"
+          ]
+        }
+      ]
+    }
+  ]
+}
